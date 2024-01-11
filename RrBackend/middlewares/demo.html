@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+const user = { 
+    'name': 'Alex',
+    'address': '15th Park Avenue',
+    'age': 43,
+    'department':{
+        'name': 'Sales',
+        'Shift': 'Morning',
+        'address': {
+            'city': 'Bangalore',
+            'street': '7th Residency Rd',
+            'zip': 560001
+        }
+    }
+}
+
+// const updated = {
+//     ...user, 
+//     department: {'number': 7}
+// }
+//==========================
+const updated = {
+    ...user, 
+    department: {
+        ...user.department, 
+        'number': 7
+    }
+};
+
+ 
+console.log(updated);
+    </script>
+  </body>
+</html>

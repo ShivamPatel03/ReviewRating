@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #a375dc;
+  /* background-color: linear-gradient(180deg, #7a2ed6,#a375dc); */
+}
+.LeftBox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.LeftBox p {
+  width: 50%;
+  text-align: center;
+}
+.LeftBox img {
+  width: 400px;
+}
+.RightBox {
+  width: 50%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+}
+.RightBox .RightBox-a {
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  background: url(image/Group\ 11665.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.RightBox .RightBox-a img {
+  color: black;
+  border: 2px solid black;
+}
+.RightBox .RightBox-a h1 {
+  color: #7a2ed6;
+}
+.RightBox .RightBox-a h4 {
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+}
+.RightBox .RightBox-a input {
+  padding: 10px 60px;
+}
+.RightBox .RightBox-a button {
+  padding: 10px 35px;
+  border: none;
+  background: linear-gradient(180deg, #7a2ed6, #a375dc);
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6);
+}
+.RightBox .RightBox-a button:hover {
+  cursor: pointer;
+  color: #7a2ed6;
+  background-color: white;
+
+}
+.RightBox .RightBox-b {
+  text-align: center;
+  line-height: 30px;
+}
+
